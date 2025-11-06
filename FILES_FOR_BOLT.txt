@@ -1,0 +1,31 @@
+🚀 BOLT DEPLOYMENT - FILE CHECKLIST
+=====================================
+
+Upload these 4 files to Bolt.new:
+
+✅ index.html
+✅ pain_points_detail.html
+✅ top_content_detail.html
+✅ low_content_detail.html
+
+That's it! All 4 files are in this directory and ready to upload.
+
+---
+
+QUICK START:
+1. Go to https://bolt.new
+2. Create new project
+3. Upload these 4 files
+4. Done! Your dashboard will be live
+
+---
+
+DO NOT UPLOAD:
+❌ Python files (*.py)
+❌ Data files (*.json, *.csv, *.xlsx, *.txt)
+❌ kb_dashboard.html (we created index.html from it)
+❌ README or guide files
+❌ The "eGain KB Data" folder
+
+Only the 4 HTML files listed above are needed!
+
