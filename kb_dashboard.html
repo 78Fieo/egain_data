@@ -540,10 +540,21 @@
     </div>
     
     <script>
-        // Add interactive features
-        console.log('KB Dashboard loaded successfully!');
-        
-        // You can add filtering, sorting, and other interactive features here
+        // Ensure links work properly
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('KB Dashboard loaded successfully!');
+
+            // Add explicit click handlers to view-all links as fallback
+            const viewAllLinks = document.querySelectorAll('.view-all');
+            viewAllLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href) {
+                        window.location.href = href;
+                    }
+                });
+            });
+        });
     </script>
 </body>
 </html>
